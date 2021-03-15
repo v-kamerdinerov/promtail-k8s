@@ -1,0 +1,14 @@
+example_control_plane   ansible_ssh_host=you-instance ansible_ssh_user=centos ansible_port=22 ansible_become=true
+example_worker-one     ansible_ssh_host=you-instance ansible_ssh_user=centos ansible_port=22 ansible_become=true
+example_worker-two    ansible_ssh_host=you-instance ansible_ssh_user=centos ansible_port=22 ansible_become=true
+
+
+[CLUSTER]
+example_control_plane
+example_worker-one
+example_worker-two
+
+
+
+
+

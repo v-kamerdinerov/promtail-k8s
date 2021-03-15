@@ -1,0 +1,1 @@
+LOKI_SERVER: 'http://you-server:3100/loki/api/v1/push'
