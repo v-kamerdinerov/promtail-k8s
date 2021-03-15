@@ -10,10 +10,6 @@
   - "promtail-clusterrole.yaml"
   - "promtail-rolebinding.yaml"
 
-- name: Add custom registry into hosts
-  lineinfile:
-    path: '/etc/hosts'
-    line: '10.55.254.42 syngenta.reg'
 
 - name: Create promtail service
   shell: "kubectl apply -f /tmp/{{ item }} --validate=false"
