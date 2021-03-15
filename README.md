@@ -2,9 +2,15 @@
 Grabber k8s logs for sending them to Loki
 
 
-In this repository there is an ansible playbook for rolling out the Promtail graber to your k8s cluster for collecting logs.
+There is an ansible playbook for rolling out the Promtail graber to your k8s cluster for collecting logs.
 
-Before starting work, you need to fill in the address of the loka server in vars.
+
+```bash
+ansible-playbook docker-deploy.yml --extra-vars \"host_group=INSTANCES \"
+```
+
+
+Before starting work, you need to fill in the address of the loki server in vars.
 
 ***group_vars/all***
 ```bash
