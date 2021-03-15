@@ -6,7 +6,7 @@ There is an ansible playbook for rolling out the Promtail graber to your k8s clu
 
 
 ```bash
-ansible-playbook docker-deploy.yml --extra-vars \"host_group=INSTANCES \"
+ansible-playbook deploy.yml --extra-vars "host_group=INSTANCES"
 ```
 
 

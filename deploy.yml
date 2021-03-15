@@ -6,6 +6,4 @@
   - include_role:
       name: promtail
     vars:
-      # component: "{{ comes from extra_vars }}"
-      # env_name: "{{ comes from extra_vars }}"
       k8s_force_deployment: yes
