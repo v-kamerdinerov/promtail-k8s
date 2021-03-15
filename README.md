@@ -14,4 +14,4 @@ LOKI_SERVER: 'http://you-server:3100/loki/api/v1/push'
 Also add your servers to `cluster.inventory`
 
 As a success, you can see the data that appears in the `Grafana - Explore tab`
-![screenshot of sample](https://i.gyazo.com/24e9fdcf4fafa864b9708a64e125401d.png)
+![screenshot of sample](https://i.gyazo.com/15fa324c04f851bf0b2896d4b8096214.png)
